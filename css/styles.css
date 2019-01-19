@@ -1,0 +1,60 @@
+.dividing-header {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.section {
+  padding: 2rem 1.5rem;
+}
+
+.media {
+  max-width: 90%;
+  margin: 1.5rem auto 0 auto;
+  border: 1px solid #e6e7e9;
+  padding: 1em 1.5em 0.5em 1.5em;
+  border-radius: 0.3em;
+  transition: all .2s;
+}
+
+.media:hover {
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+}
+
+.media-right {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  min-height: 70px !important;
+}
+
+.green-border {
+  border: 1px solid hsl(141, 71%, 48%) !important;
+}
+
+.tag {
+  font-size: 0.6rem !important;
+}
+
+.btn-tag {
+  cursor: pointer;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.icon i {
+  margin-right: 3px;
+}
+
+.icon strong {
+  user-select: none;
+}
+
+.image.is-24x24 {
+  display: inline;
+  position: relative;
+  top: 5px;
+  border-radius: 3px;
+  user-select: none;
+}
